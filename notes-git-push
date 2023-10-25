@@ -1,0 +1,7 @@
+
+#!/data/data/com.termux/files/usr/bin/bash
+cd /storage/emulated/0/Documents/notes
+git add . 
+date +%Y-%m-%d\ %H:%M:%S | git commit -F -
+git push
+cd
