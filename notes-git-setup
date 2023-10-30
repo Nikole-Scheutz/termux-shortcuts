@@ -1,0 +1,11 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+cd /storage/emulated/0/Documents/
+git clone git@github.com:Nikole-Scheutz/notes.git
+
+git config --global user.name Nikole-Scheutz
+git config --global user.ename 112065881+Nikole-Scheutz@users.noreply.github.com
+
+cd notes
+git config --global --add safe.directory /storage/emulated/0/Documents/notes
+
